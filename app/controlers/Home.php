@@ -1,8 +1,16 @@
 <?php 
 
 class Home {
-    function __construct()
+    public function index()
     {
        echo "Home page";
+    }
+     public function edit()
+    {
+       echo "Home page editing";
+    }
+     public function delete($id)
+    {
+       echo "Deleting the Home page ".$id;
     }
 }
